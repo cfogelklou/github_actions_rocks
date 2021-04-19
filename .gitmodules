@@ -1,0 +1,12 @@
+[submodule "acornSmartWatchTuner"]
+	path = acornSmartWatchTuner
+	url = https://github.com/acorn-technology/acornSmartWatchTuner
+[submodule "hello-electron"]
+	path = hello-electron
+	url = git@github.com:cfogelklou/hello-electron.git
+[submodule "BattleSnake-cpp-client"]
+	path = BattleSnake-cpp-client
+	url = git@github.com:cfogelklou/BattleSnake-cpp-client.git
+[submodule "roughtime_cpp_client"]
+	path = roughtime_cpp_client
+	url = git@github.com:cfogelklou/roughtime_cpp_client.git

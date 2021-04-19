@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # This job uses a fancy tool to extract a secret file, and forwards it to the next step
+  extract:
+    name: Extract the secret file
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Unzip the secret file
+      - name: Extract the super secret file
+        run: |
+          echo What was Donald Trumps super secret twitter password?
+          7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
+          mkdir artifacts
+          cp this_file_is_secret.md artifacts/

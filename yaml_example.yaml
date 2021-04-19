@@ -1,0 +1,19 @@
+yaml_string: label
+yaml_array:
+  - 1
+  - 2
+  - 3
+  - 4
+yaml_object:
+  what_is_this: It's an object
+yaml_array_of_objects:
+  - object1: This is object 1
+    param: This is a parameter
+  - object2: This is object 2
+    param: This is a parameter
+  - object3: This is object 3
+    param: This is a parameter
+  - object4: This is object 4
+    param: This is a parameter
+  - object5: This is object 5
+    param: This is a parameter

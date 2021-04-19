@@ -1,0 +1,6 @@
+
+      # Upload unzipped secret file
+      - uses: actions/upload-artifact@master
+        with:
+          name: artifacts-${{ github.workflow }}
+          path: artifacts

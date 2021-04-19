@@ -1,0 +1,165 @@
+[
+  {
+    "type": "createFile",
+    "path": "hello-electron/.github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "hello-electron/.github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../hello-electron/.github/workflows/ci.yml.1.unit-test"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "../hello-electron/.github/workflows/ci.yml.2.build"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "../hello-electron/.github/workflows/ci.yml.3.artifacts"
+  },  
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },  
+  {
+    "type": "createFile",
+    "path": "acornSmartWatchTuner/.github/workflows/cd.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "acornSmartWatchTuner/.github/workflows/cd.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../acornSmartWatchTuner/.github/workflows/cd.yml.bak"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "createFile",
+    "path": "BattleSnake-cpp-client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "BattleSnake-cpp-client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../BattleSnake-cpp-client/.github/workflows/ci.yml.bak"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "createFile",
+    "path": ".github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": ".github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.1"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.2"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },{
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.3"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },{
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.4"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "createFile",
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
+  }  
+]
