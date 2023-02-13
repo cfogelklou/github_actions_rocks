@@ -1,6 +1,3 @@
-[submodule "acornSmartWatchTuner"]
-	path = acornSmartWatchTuner
-	url = https://github.com/acorn-technology/acornSmartWatchTuner
 [submodule "hello-electron"]
 	path = hello-electron
 	url = git@github.com:cfogelklou/hello-electron.git
