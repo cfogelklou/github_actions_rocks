@@ -17,18 +17,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Unzip the secret file
       - name: Extract the super secret file
         run: |
           echo What was Donald Trumps super secret twitter password?
           7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
-          echo ${{ secrets.SUPER_SECRET_7Z_PASSWORD }} > poop.md
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
-          cp poop.md artifacts/
-          
+
       # Upload unzipped secret file
       - uses: actions/upload-artifact@master
         with:
