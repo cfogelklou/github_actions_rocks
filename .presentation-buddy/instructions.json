@@ -48,27 +48,6 @@
   },  
   {
     "type": "createFile",
-    "path": "acornSmartWatchTuner/.github/workflows/cd.yml"
-  },
-  {
-    "type": "openFile",
-    "path": "acornSmartWatchTuner/.github/workflows/cd.yml"
-  },
-  {
-    "type": "command",
-    "command": "cursorBottom"
-  },  
-  {
-    "type": "typeTextFromFile",
-    "path": "../acornSmartWatchTuner/.github/workflows/cd.yml.bak"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
-  {
-    "type": "createFile",
     "path": "BattleSnake-cpp-client/.github/workflows/ci.yml"
   },
   {
