@@ -10,3 +10,6 @@
 [submodule "quarantine-holdem"]
 	path = quarantine-holdem
 	url = git@github.com:cfogelklou/quarantine-holdem.git
+[submodule "phone-as-key"]
+	path = phone-as-key
+	url = git@github.com:polestar/phone-as-key.git
