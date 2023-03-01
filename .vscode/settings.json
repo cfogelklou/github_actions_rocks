@@ -1,3 +1,4 @@
 {
-    "presentation-buddy.delay": 20
+    "presentation-buddy.delay": 15,
+    "presentation-buddy.randomness": 5
 }
