@@ -4,6 +4,7 @@ yaml_array:
   - 2
   - 3
   - 4
+yaml_array_2: [ 1, 2, 3, 4]
 yaml_object:
   what_is_this: It's an object
 yaml_array_of_objects:
