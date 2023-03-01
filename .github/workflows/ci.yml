@@ -26,3 +26,42 @@ jobs:
           7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
+      # Upload unzipped secret file
+      - uses: actions/upload-artifact@master
+        with:
+          name: artifacts-${{ github.workflow }}
+          path: artifacts
+
+  # This job uses the extracted secret file on windows
+  print_windows:
+    name: Use artifact on Windows
+    needs: [extract]
+    runs-on: windows-latest
+    timeout-minutes: 2
+    steps:
+      - name: Download extracted secret
+        uses: actions/download-artifact@master
+        with:
+          name: artifacts-${{ github.workflow }}
+          path: secrets
+
+      - name: Print the super secret file
+        run: |
+          cat secrets/this_file_is_secret.md
+
+  # This job uses the extracted secret file on macos
+  print_macos:
+    name: Use artifact on macos
+    needs: [extract]
+    runs-on: macos-latest
+    timeout-minutes: 2
+    steps:
+      - name: Download extracted secret
+        uses: actions/download-artifact@master
+        with:
+          name: artifacts-${{ github.workflow }}
+          path: secrets
+
+      - name: Print the super secret file
+        run: |
+          cat secrets/this_file_is_secret.md
