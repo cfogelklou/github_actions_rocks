@@ -10,7 +10,7 @@
   {
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../hello-electron/.github/workflows/ci.yml.1.unit-test"
@@ -40,12 +40,12 @@
   {
     "type": "typeTextFromFile",
     "path": "../hello-electron/.github/workflows/ci.yml.3.artifacts"
-  },  
+  },
   {
     "type": "wait",
     "delay": "manual",
     "save": true
-  },  
+  },
   {
     "type": "createFile",
     "path": "BattleSnake-cpp-client/.github/workflows/ci.yml"
@@ -57,7 +57,7 @@
   {
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../BattleSnake-cpp-client/.github/workflows/ci.yml.bak"
@@ -78,7 +78,7 @@
   {
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../.github/workflows/ci.yml.1"
@@ -91,7 +91,7 @@
   {
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../.github/workflows/ci.yml.2"
@@ -103,7 +103,7 @@
   },{
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../.github/workflows/ci.yml.3"
@@ -115,7 +115,7 @@
   },{
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../.github/workflows/ci.yml.4"
@@ -136,9 +136,9 @@
   {
     "type": "command",
     "command": "cursorBottom"
-  },  
+  },
   {
     "type": "typeTextFromFile",
     "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
-  }  
+  }
 ]
