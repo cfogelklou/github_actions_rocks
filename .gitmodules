@@ -7,3 +7,6 @@
 [submodule "roughtime_cpp_client"]
 	path = roughtime_cpp_client
 	url = git@github.com:cfogelklou/roughtime_cpp_client.git
+[submodule "quarantine-holdem"]
+	path = quarantine-holdem
+	url = git@github.com:cfogelklou/quarantine-holdem.git
