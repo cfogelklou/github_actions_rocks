@@ -1,5 +1,6 @@
 [
   {
+    "wat": "*********2.hello-electron*********",
     "type": "createFile",
     "path": "hello-electron/.github/workflows/ci.yml"
   },
@@ -47,6 +48,7 @@
     "save": true
   },
   {
+    "wat": "********3.Battlesnake!!!*********",
     "type": "createFile",
     "path": "BattleSnake-cpp-client/.github/workflows/ci.yml"
   },
@@ -68,6 +70,7 @@
     "save": true
   },
   {
+    "wat": "*****4.secrets*****",
     "type": "createFile",
     "path": ".github/workflows/ci.yml"
   },
@@ -126,12 +129,13 @@
     "save": true
   },
   {
+    "wat": "*****5.strobopro*****",
     "type": "createFile",
-    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+    "path": "strobopro/.github/workflows/cicd.yml"
   },
   {
     "type": "openFile",
-    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+    "path": "strobopro/.github/workflows/cicd.yml"
   },
   {
     "type": "command",
@@ -139,6 +143,6 @@
   },
   {
     "type": "typeTextFromFile",
-    "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
+    "path": "../strobopro/.github/workflows/cicd.yml.bak"
   }
 ]

@@ -1,4 +1,5 @@
 {
     "presentation-buddy.delay": 5,
-    "presentation-buddy.randomness": 5
+    "presentation-buddy.randomness": 5,
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
